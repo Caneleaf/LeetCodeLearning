@@ -1,4 +1,4 @@
-# LeetCodeLearning-C# Version
+# LeetCodeLearning-C# 
 
 实习之余开始刷题，但是还是个弱鸡。<br>
 本项目主要用C＃来实现，目前实现的平台是.Net Core 2.2。<br>
