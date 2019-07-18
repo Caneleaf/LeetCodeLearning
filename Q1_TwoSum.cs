@@ -5,6 +5,7 @@ using System.Text;
 
 namespace LeetCodeDemo
 {
+    //记得在Main方法中new出你的宝贝对象，然后调用这些方法哦（参数记得给）
     public class Q1_TwoSum
     {
 
@@ -22,7 +23,6 @@ namespace LeetCodeDemo
                 }
             }
             throw new Exception("No two sum solution");
-
         }
 
         //通过hashtale（赋值的时候会覆盖相同的key）
