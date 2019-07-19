@@ -1,4 +1,4 @@
-﻿namespace LeetCodeDemo
+namespace LeetCodeDemo
 {
     //题目中的节点类
     public class ListNode
@@ -46,7 +46,7 @@
  * 
  * 我想着用数组做应该差不多？不过数组是顺序结构不是链式的，存储上应该有差别，主要通过数组下标来替代链表中的Next吧
  * 刚开始刷很不理想..啧
- * 
+ * 原题地址：https://leetcode-cn.com/problems/add-two-numbers/
  * 
  *    这是Main方法，输出语句中result.next.next.next是判断是否还有进位，输出结果是8 9 0 1。
  *    
