@@ -49,7 +49,7 @@ namespace LeetCodeDemo
 
         /*
          一般解法，先组合两个数组到total再对total排序
-        最后判断中位数输出，
+        最后判断中位数输出，但是这样时间复杂度不能达到题目要求
         leetcode运行时间280ms，较长，优点是参数数组不要求有序，和底下的差别主要应该是在排序方法不同
         */
         public double Sulution1_FindMedianSortedArrays(int[] nums1, int[] nums2)
