@@ -20,9 +20,17 @@
 */
 namespace LeetCodeDemo
 {
-    /// <summary>
-    /// 解法有很多，但是菜鸡的我目前就会这两种，Manacher还是看不懂....希望会有进步吧
-    /// </summary>
+    /*    
+     测试用例
+
+      static void Main(string[] args)
+    {
+        Q5_longestPalindrome q5 = new Q5_longestPalindrome();
+        string s = "abbccbbasa";
+        string result = q5.Sulution2_longestPalindrome(s);
+        Console.WriteLine(result);
+    }
+    */
     class Q5_longestPalindrome
     {
         /*        
