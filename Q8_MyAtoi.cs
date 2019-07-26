@@ -63,7 +63,8 @@ namespace LeetCodeDemo
             遍历s，把数字赋值到result，此时result要么为空（str全为字符），要么有数字；
             强制转换一下，判断是否溢出，若溢出，输出int.MaxValue/MinValue
         但是这段代码在vs运行没问题，提交到Leetcode的时候不能过case，输出结果和vs的不一样。
-            但是我觉得解题思路应该没错啊....郁闷；
+        但是我觉得解题思路应该没错啊....郁闷；
+        另外，通过正则表达式限制应该也是可行的。但是我没写。
 */
         public int Sulution_MyAtoi(string str)
         {
