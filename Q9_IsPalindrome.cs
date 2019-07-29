@@ -36,7 +36,7 @@ namespace LeetCodeDemo
         */
         public bool Sulution1_IsPalindrome(int x)
         {
-            if (x<0)
+            if (x < 0)
             {
                 return false;
             }
